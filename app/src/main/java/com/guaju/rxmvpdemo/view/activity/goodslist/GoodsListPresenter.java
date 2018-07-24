@@ -1,4 +1,4 @@
-package com.guaju.rxmvpdemo.view.activity.goods;
+package com.guaju.rxmvpdemo.view.activity.goodslist;
 
 import com.guaju.rxmvpdemo.bean.GoodsList;
 import com.guaju.rxmvpdemo.contract.GoodsListContract;
@@ -14,7 +14,7 @@ public class GoodsListPresenter extends GoodsListContract.Presenter {
     private GoodsEngine goodsEngine;
 
     public GoodsListPresenter(GoodsListContract.View v) {
-        super(v);
+       this.v=v;
     }
 
     @Override

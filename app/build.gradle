@@ -38,7 +38,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
     //导入适配器依赖  (配合rxjava使用时必须要用的依赖)
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
-
-
+    //recyclerview分割线
+    implementation 'com.dinuscxj:recycleritemdecoration:1.0.0'
+    //compile
 
 }

@@ -2,22 +2,22 @@
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:id="@+id/ll_empty"
-    android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/empty"
-        />
+        android:background="@drawable/error" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
         android:layout_marginTop="20dp"
-        android:text="没有数据了，请稍后再试"
-        />
+        android:text="网络异常，请稍后重试"
+        android:textSize="16sp" />
 
 </LinearLayout>

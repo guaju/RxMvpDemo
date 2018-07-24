@@ -14,19 +14,17 @@ public interface GoodsListContract {
     //契约接口
     interface View extends BaseView{
        //初始化recyclerview
-      void  initRecyclerView(RecyclerView rv);
-      void onError();
+      void initRecyclerView(RecyclerView rv);
       void onCompleted(GoodsList goodsList);
+
+      void  refresh();
       
     }
 
     abstract class Presenter implements BasePresenter{
         //获取商品列表
-        View v;
-        public Presenter(View v) {
-            this.v=v;
-        }
-        public abstract  void getGoodsList();
+        //方法的扩展
+        public  abstract  void  getGoodsList();
     }
 
 

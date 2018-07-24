@@ -15,7 +15,6 @@ import rx.schedulers.Schedulers;
 public class GoodsEngine {
     public  interface OnRequestCompleted<T>{
         void onError();  //获取数据为空
-        void onOver(); //获取完毕所有的
         void onCompleted(T t);
     }
 

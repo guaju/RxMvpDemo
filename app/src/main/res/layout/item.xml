@@ -3,7 +3,10 @@
     android:id="@+id/tv"
     android:padding="10dp"
     android:gravity="center"
+    android:textSize="16sp"
+    android:textColor="#000"
+    android:text="测试"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="30dp">
 
 </TextView>
